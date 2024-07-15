@@ -5,8 +5,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  while (true){
-    Serial.print("subindo um erro");
-
+  for (int i = 0; i<500; i++ {
+    Serial.println(i);
+  })
   }
 }
